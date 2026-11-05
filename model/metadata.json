@@ -1,0 +1,73 @@
+{
+  "dataset": "Breast Cancer Wisconsin (Diagnostic), UCI ML Repository",
+  "target": "diagnosis",
+  "positive_label": "M",
+  "labels": {
+    "1": "M (malignant)",
+    "0": "B (benign)"
+  },
+  "features": [
+    "radius_mean",
+    "texture_mean",
+    "perimeter_mean",
+    "area_mean",
+    "smoothness_mean",
+    "compactness_mean",
+    "concavity_mean",
+    "concave points_mean",
+    "symmetry_mean",
+    "fractal_dimension_mean",
+    "radius_se",
+    "texture_se",
+    "perimeter_se",
+    "area_se",
+    "smoothness_se",
+    "compactness_se",
+    "concavity_se",
+    "concave points_se",
+    "symmetry_se",
+    "fractal_dimension_se",
+    "radius_worst",
+    "texture_worst",
+    "perimeter_worst",
+    "area_worst",
+    "smoothness_worst",
+    "compactness_worst",
+    "concavity_worst",
+    "concave points_worst",
+    "symmetry_worst",
+    "fractal_dimension_worst"
+  ],
+  "random_state": 47,
+  "test_size": 0.2,
+  "train_rows": 455,
+  "test_rows": 114,
+  "models": {
+    "Logistic Regression": "logistic_regression.joblib",
+    "Decision Tree": "decision_tree.joblib",
+    "KNN": "knn.joblib",
+    "Naive Bayes": "naive_bayes.joblib",
+    "Support Vector Machine": "support_vector_machine.joblib"
+  },
+  "best_params": {
+    "Logistic Regression": {
+      "clf__C": 5
+    },
+    "Decision Tree": {
+      "criterion": "entropy",
+      "max_depth": 3,
+      "min_samples_leaf": 1
+    },
+    "KNN": {
+      "clf__n_neighbors": 11,
+      "clf__weights": "uniform"
+    },
+    "Naive Bayes": {
+      "var_smoothing": 1e-09
+    },
+    "Support Vector Machine": {
+      "clf__C": 5,
+      "clf__gamma": 0.01
+    }
+  }
+}
