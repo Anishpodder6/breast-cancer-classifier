@@ -27,9 +27,9 @@ The features are on very different scales (area is in the hundreds to thousands 
 
 ## c. GitHub repository link
 
-**Repository:** `<paste your GitHub repo link here>`
+**Repository:** https://github.com/Anishpodder6/breast-cancer-classifier.git
 
-**Live Streamlit app:** `<paste your Streamlit app link here>`
+**Live Streamlit app:** https://breast-cancer-classifier-avn3xjrghtzrajvnrdbmzf.streamlit.app/
 
 ```
 breast-cancer-classifier/
